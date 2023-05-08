@@ -20,7 +20,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## 📁 Integrantes Envolvidos
 
-* **Grupo 19**
+* **Grupo 02**
 - ANDERSON LUIZ MAESTRI
 - AUGUSTO MARTINS RODRIGUES DOS SANTOS
 - DANIEL DOMINGOS DE SOUZA
@@ -35,7 +35,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
  ```bash
 $ git clone 
 
-$ cd Controle Financeiro
+$ cd Controle-Financeiro
 
 $ yarn install
 

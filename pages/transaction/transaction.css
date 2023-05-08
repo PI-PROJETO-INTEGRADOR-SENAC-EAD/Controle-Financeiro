@@ -1,0 +1,150 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cecece;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+    .pagina {
+        padding: 10px;
+    }
+
+    .form-field {
+        margin-bottom: 20px;
+    }
+
+    .error {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .solid {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .clear {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Estilos para desktops */
+@media (min-width: 601px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .pagina {
+        width: 400px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+    }
+
+    .form-field {
+        margin-bottom: 20px;
+    }
+
+    .error {
+        font-size: 14px;
+        margin-top: 5px;
+        color: red;
+    }
+
+    .solid {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .solid:hover {
+        background-color: #0056b3;
+    }
+
+    .clear {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    .clear:hover {
+        color: #0056b3;
+    }
+}
+
+
+/* Estilos específicos para os elementos do formulário */
+.form-field label {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-field input,
+.form-field select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+}
+
+/* Estilizar os botões de opção */
+.form-field input[type="radio"],
+.form-field input[type="checkbox"] {
+    display: none;
+}
+
+.form-field label[for="expense"],
+.form-field label[for="income"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-field label[for="expense"]::before,
+.form-field label[for="income"]::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.form-field input[type="radio"]:checked + label[for="expense"]::before,
+.form-field input[type="radio"]:checked + label[for="income"]::before {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+/* Alinhar os rótulos corretamente */
+.form-field label[for="expense"],
+.form-field label[for="income"] {
+    line-height: 1.5;
+}
+

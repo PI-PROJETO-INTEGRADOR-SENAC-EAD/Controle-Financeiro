@@ -1,0 +1,113 @@
+/* Define a fonte e o tamanho do texto do rótulo */
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+body {
+	background-color: #cecece;
+
+}
+
+
+label {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+
+
+/* Define a largura máxima do formulário */
+form {
+    background-color: black;
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* Define o espaçamento entre os elementos do formulário */
+form div {
+	margin-bottom: 10px;
+}
+
+/* Define a cor de fundo e a borda dos campos de entrada */
+input[type="email"],
+input[type="password"] {
+	background-color: #f2f2f2;
+	border: none;
+	border-radius: 4px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+/* Define o estilo dos botões */
+button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+button:active{
+	opacity: 0.8;
+
+}
+button[disabled]{
+	opacity: 0.7;
+}
+/* Define o erro do ao não preencher o campo do Email e senha*/
+.error {
+	color: white;
+	background-color: #e74c3c;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	display: none;
+	text-align: center;
+  }
+  
+  
+
+/* Estiliza o botão "Recuperar Senha" */
+.clear {
+	background-color: #2802faf1;
+}
+
+/* Estiliza o botão "Entrar" */
+.solid {
+	background-color: #296d2b;
+}
+
+/* Estiliza o botão "Registrar" */
+.autline {
+	background-color: #008CBA;
+}
+
+/* Altera a cor de fundo do botão quando o cursor está sobre ele */
+button:hover {
+	background-color: #3e8e41;
+}

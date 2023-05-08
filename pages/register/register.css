@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cecece;
+    margin: 0;
+    padding: 0;    
+}
+
+header {
+    background-color: #21ac25;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px #fffbfb;
+     border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.centralize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-field {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.solid {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.solid:hover {
+    background-color: #45a049;
+}
+
+.clear {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.clear:hover {
+    background-color: white;
+}
+
+/* Estilos para celular */
+@media (max-width: 480px) {
+    form {
+        width: 80%;
+    }
+}
+
+
+ 
+  

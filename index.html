@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-auth-compat.js"></script>
+    <script src="firebase-init.js"></script>
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+   
+    
+ 
+    
+
+    
+
+    <title>Login Controle Finaceiro</title>
+</head>
+
+<body>
+    <header>
+        <h1>Controle Financeiro</h1>
+        <p>Bem-vindo ao Site</p>
+    </header>
+    <form action="">
+        <div><label for="">Email</label></div>
+        <input type="email" name="email" id="email" onchange="onChangeEmail()" placeholder="seu@email.com">
+        <div class="error" id="email-required-error">Email é obrigatorio</div>
+        <div class="error" id="email-invalid-error">Email é invalido</div>
+        <div>
+            <div><label for="">Senha</label></div>
+            <input type="password" name="password" id="password" onchange="onChangePassword()" placeholder="Senha">
+            <div class="error" id="password-required-error">Senha é obrigatório</div>
+        </div>
+        <div>
+            <button type="button" class="clear" id="recover-password-button" onclick="recoverPassword()" disabled="true">Recuperar senha</button>        </div>
+        <div>
+            <button type="button" class="solid" id="login-button" disabled="true" onclick="login()">Entrar</button>
+        </div>
+        <div>
+            <button type="button" class="outline" onclick="register()">Registrar</button>
+
+        </div>
+        
+    </form>
+    
+
+</body>
+
+ 
+
+</html>

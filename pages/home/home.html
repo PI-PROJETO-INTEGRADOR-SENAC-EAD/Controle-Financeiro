@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore-compat.js"></script>
+    <script src="../../firebase-init.js"></script>
+    <script src="../../auth-guard.js"></script>
+    <script src="home.js"></script>
+
+    <link rel="stylesheet" href="home.css">
+
+
+</head>
+
+<body>
+    <header>
+        <button  style="background-color:rgb(255, 255, 255)" type="button"
+         class="solid" onclick="logout()">Sair</button>
+        <ol id="transactions"></ol>
+        <button class="fab fixed bottom right" onclick="newTransaction()">+</button>
+    </header>
+
+
+</body>
+
+</html>

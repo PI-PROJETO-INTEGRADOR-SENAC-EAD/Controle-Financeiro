@@ -14,9 +14,20 @@ O projeto **Controle Financeiro** é um site para as despesas pessoais ou empres
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
+FrontEnd
 - Html
 - Css
+
+BackEnd
 - JavaScript
+- Firebase
+- Authentication
+
+Banco de Dados
+- Firebase
+- Banco de Dados NoSQL
+- Cloud Firestore Database
+- Authentication
 
 ## 📁 Integrantes Envolvidos
 

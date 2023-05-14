@@ -97,6 +97,17 @@ button {
     form {
         width: 80%;
     }
+    header {
+        background-color: #21ac25;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+        width: 235px;
+        border-radius: 5px;
+        border: 1px solid;
+    }
+
+
 }
 
 

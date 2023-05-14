@@ -110,4 +110,36 @@ form {
   form {
       width: 80%;
   }
+
+  button.solid {
+    background-color: #f5f5f5;
+    border: 1px solid;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  /* Alinhar os rótulos Despesas corretamente */
+  ol li.expense {
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-left: 10px solid red;
+    border-radius: 5px;
+    margin: auto;
+  }
+  
+  /* Alinhar os rótulos Receita corretamente */
+  ol li.income {
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-left: 10px solid green;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+  }
+
+
 }
